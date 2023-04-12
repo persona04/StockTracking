@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stoktakip2.Menu">
+   <children>
+      <Button fx:id="btn3" layoutX="196.0" layoutY="250.0" mnemonicParsing="false" onAction="#logout" prefHeight="56.0" prefWidth="209.0" text="Logout">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btn1" layoutX="196.0" layoutY="91.0" mnemonicParsing="false" onAction="#listStock" prefHeight="56.0" prefWidth="209.0" text="List Stock">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btn2" layoutX="196.0" layoutY="172.0" mnemonicParsing="false" onAction="#editPage" prefHeight="56.0" prefWidth="209.0" text="Add/Remove Item">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
